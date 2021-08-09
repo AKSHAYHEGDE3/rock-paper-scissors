@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e5f74 !important;
+}
+#title{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.container{
+    display: flex;
+    margin-top: 2%;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+#section1{
+    margin-right: 20%;
+    margin-left: 10%;
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.section .scores{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: white;
+}
+.info h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background : rgb(41, 40, 40); */
+    background: #b300b2;
+    height: 15vw;
+}
+.show i{
+    font-size: 9vw;
+    color: #FFF533;
+}
+
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 18vh;
+    position: relative;
+    /* right: 420px; */
+    right: 22%;
+}
+.selection button{
+    margin: 0 0.5em;
+    padding: 0.6em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    /* font-size: 2.5em; */
+    font-size: calc( 13px + 2.5vw);
+    color: orange;
+    
+    
+}
+.lets_play{
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:480px) {
+    .section{
+        width: 120px !important;
+    }
+}
