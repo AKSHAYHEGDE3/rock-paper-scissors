@@ -18,34 +18,36 @@ body{
 .container{
     display: flex;
     margin-top: 2%;
+    margin-bottom: 1rem;
 }
 .container .section{
-    width: 350px;
-    margin: 20px 50px;
+    width: 30vw;
+    height: 35vh ;
 }
+
 #section1{
-    margin-right: 20%;
     margin-left: 10%;
+    margin-right: 20%;
 }
+
 .section .info{
     background: rgb(10, 10, 10);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 20%;
 }
 .section .scores{
     background: rgb(10, 10, 10);
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 20%;
     color: white;
 }
 .info h3{
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 0px 10px;
     font-family: sans-serif;
     color: white;
 }
@@ -55,10 +57,10 @@ body{
     justify-content: center;
     /* background : rgb(41, 40, 40); */
     background: #b300b2;
-    height: 15vw;
+    height: 60%;
 }
 .show i{
-    font-size: 9vw;
+    font-size: 5rem;
     color: #FFF533;
 }
 
@@ -86,8 +88,11 @@ body{
     
     
 }
+#finalResult{
+    margin-top: 1rem;
+}
 .lets_play{
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem;
     background: green;
     outline: none;
@@ -98,8 +103,8 @@ body{
     font-size: 2rem;
 }
 
-@media screen and (max-width:480px) {
-    .section{
-        width: 120px !important;
-    }
+@media screen and (max-width:576px) {
+  .info h3{
+      font-size: 1rem;
+  }
 }
